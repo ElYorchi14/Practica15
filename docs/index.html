@@ -7,24 +7,218 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
-  <body class="bg-light text-secondary-emphasis">
-    <nav class="navbar bg-success navbar-expand-lg bg-body-tertiary">
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg" style="background-color: rgb(5, 50, 5);">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" alt="IMSS"></a>
+        <a class="navbar-brand" href="#"><img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" alt="IMSS" height="24"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto text-light">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Tramites</a>
+              <a class="nav-link active text-light" aria-current="page" href="#">Tramites</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gobierno</a>
+              <a class="nav-link text-light" href="#">Gobierno</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-light" type="submit"><img src="https://cdn-icons-png.flaticon.com/128/1086/1086916.png" alt="lupa" height="24"></button>
+          </form>
+    
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar sticky-top navbar-expand-lg" style="background-color: rgb(23, 67, 23);">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">IMSS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto text-light">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Conoce al IMSS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Acerca del IMSS</a></li>
+                <li><a class="dropdown-item" href="#">Sala de prensa</a></li>
+                <li><a class="dropdown-item" href="#">Datos abiertos</a></li>
+                <li><a class="dropdown-item" href="#">Tramites y servicios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                IMSS transparente
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Transparencia</a></li>
+                <li><a class="dropdown-item" href="#">Proteccion de datos personales</a></li>
+                <li><a class="dropdown-item" href="#">Guiando tu denuncia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Directorio
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Directorio de instalaciones</a></li>
+                <li><a class="dropdown-item" href="#">Directorio de funcionarios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Contacto ciudadano</a>
             </li>
         </div>
       </div>
     </nav>
+    <h2 class="text-center">Sitio a Maquetar <a href="https://www.imss.gob.mx/digital" target="_blank">IMSS</a></h2>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Banner01-abr2024.jpg" class="d-block w-100" alt="Imagen1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Banner04-abr2024.jpg" class="d-block w-100" alt="imagen 2">
+        </div>
+      </div>
+    </div>
+    <section class="row">
+      <article class="col col-lg-4 mx-auto mt-5">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oKmJbHxU-nM?si=4h3bdkDfAU4EAVbv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </article>
+    </section>
+    <section class="row">
+      <article class="col col-lg-9 mt-5 mx-auto">
+        <p class="fw-semibold text-center display-6 text-success">
+          App IMSS Digital va contigo
+        </p>
+        <p class="text-center fs-5">
+          Accede a trámites y servicios del IMSS a cualquier hora, los 365 días del año, desde la palma de tu mano. Desde la app podrás entre otros:
+        </p>
+    </section>
+    <section class="container row mt-5 mx-auto">
+      <article class="col-12 col-lg-3 text-center">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Calendar.svg" class="card-img-top" alt="primer icono" height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Agenda tu cita familiar</p>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-lg-3">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Derechos.svg" class="card-img-top" alt="..." height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Cosultar tu vigencia de derechos</p>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-lg-3">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Clinica.svg" class="card-img-top" alt="..." height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Darte de alta o cambiar tu clínica</p>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-lg-3">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Cotizacion.svg" class="card-img-top" alt="..." height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Medir la frecuencia a tu cotización</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="container row mt-3 mx-auto">
+      <article class="col-12 col-lg-4 text-center">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Family.svg" class="card-img-top" alt="..." height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Obtener informe del estado de tu familiar hospitalizado</p>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-lg-4 text-center">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Bis.svg" class="card-img-top" alt="..." height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Obtener la Licencia 140 Bis</p>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-lg-4 text-center">
+        <div class="card border border-0" style="width: 18rem;">
+          <img src="https://www.imss.gob.mx/sites/all/statics/digital/Covid.svg" class="card-img-top" alt="..." height="64">
+          <div class="card-body">
+            <p class="card-text text-center">Contestar el cuestionario COVID y obtener el Permiso COVID-19</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="border-top border-bottom border-warning row mx-auto">
+      <article class="col-12 col-lg-6">
+        <p class="text-center">Si aún no la tienes, descárgala desde las tiendas</p>
+      </article>
+      <article class="col col-lg-2">
+        <div class="mt-1 img-fluid"><img src="https://www.imss.gob.mx/sites/all/statics/digital/AppleStore.png" alt="..." height="36"></div>
+      </article>
+      <article class="col col-lg-2">
+        <div class="mt-1 img-fluid"><img src="https://www.imss.gob.mx/sites/all/statics/digital/PlayStore.png" alt="..." height="36"></div>
+      </article>
+      <article class="col col-lg-2">
+        <div class="mt-1 img-fluid"><img src="https://www.imss.gob.mx/sites/all/statics/digital/HuaweiStore.png" alt="..." height="36"></div>
+      </article>
+    </section>
+    <section class="mx-auto mt-5 text-light" style="background-color: rgb(5, 50, 5);" >
+      <div class="container row mx-auto mt-5 text-light">
+        <article class="col-12 col-lg-3">
+          <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" alt="..." height="64">
+        </article>
+        <article class="col-12 col-lg-3">
+          <h5 class="">Enlaces</h5>
+          <p><a href="">Participa</a> <br>
+            <a href="">Publicaciones Oficiales</a> <br>
+            <a href="">Marco Jurídico</a> <br>
+            <a href="">Plataforma Nacional de Transparencia</a> <br>
+            <a href="">Alerta</a> <br>
+            <a href="">Denuncia</a> <br>
+          </p>
+        </article>
+        <article class="col-12 col-lg-3">
+          <h5>¿Qué es gob.mx?</h5>
+          <p>
+            Es el portal único de trámites, información y participación ciudadana.<a href=""> Leer más</a> <br>
+            <br>
+            <a href="">Portal de datos abiertos</a> <br>
+            <a href="">Declaración de accesibilidad</a> <br>
+            <a href="">Aviso de privacidad integral</a> <br>
+            <a href="">Aviso de privacidad simplificado</a> <br>
+            <a href="">Términos y Condiciones</a> <br>
+            <a href="">Política de seguridad</a> <br>
+            <a href="">Mapa de sitio</a> <br>
+          </p>
+        </article>
+        <article class="col-12 col-lg-3">
+          <a href="">Denuncia contra servidores publicos</a>
+          <h5 class="mt-5">Siguenos en</h5> <br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+          </svg>
+        </article>
+      </div>
+
+    </section>
+    <button type="button" class="btn btn-light btn-lg border border-succes sticky-bottom text-end"><img src="https://cdn-icons-png.flaticon.com/128/3439/3439472.png" alt="..." height="24"> Botón de accesibilidad</button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
